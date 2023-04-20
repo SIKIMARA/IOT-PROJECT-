@@ -8,7 +8,7 @@ export default function Home() {
   const [login, setLogin] = useState(false)
   return (
     <div>
-      {login ? null : <LoginPage />}
+      {login ? <h1>Connected</h1> : <LoginPage />}
     </div>
   )
 }
